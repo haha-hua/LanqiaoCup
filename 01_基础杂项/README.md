@@ -1,34 +1,42 @@
 # 01_基础杂项
 
 本目录汇总竞赛模板与常用工具函数，便于速写与在比赛中直接复用。每个文件附简要说明、适用场景与参考题目。
+
 ## 文件列表与解析
-	- 参考题目：P10815 【模板】快速读入 — https://www.luogu.com.cn/problem/P10815
+
 - [1_快读快写.cpp](01_基础杂项/1_快读快写.cpp)
-	- 参考题目：P10815 【模板】快速读入
+  - 描述：提供基于 `getchar`/`putchar` 的快速读写函数（整型）。适用于大输入输出场景。
+  - 参考题目：P10815 【模板】快速读入 — https://www.luogu.com.cn/problem/P10815
 
-	- 参考资料：离散化讲解 — https://oi-wiki.org/basic/coordinate-compress/
-	- 描述：离散化（坐标压缩）模板，用于把稀疏或范围大的坐标映射为连续小整数索引。
-	- 参考题目：常见于区间统计与差分题目（可根据需要补具体题目链接）。
-	- 参考题目：YBT 1433（愤怒的牛，答案空间二分） — https://ybt.ssoier.cn/problem_show.php?pid=1433
+- [2_离散化.cpp](01_基础杂项/2_离散化.cpp)
+  - 描述：离散化（坐标压缩）模板，用于把稀疏或范围大的坐标映射为连续小整数索引。
+  - 复杂度：排序 O(n log n)，映射查询 O(log n) 或 O(1)。
+  - 参考资料：离散化讲解 — https://oi-wiki.org/basic/coordinate-compress/
+
 - [3_二分查找.cpp](01_基础杂项/3_二分查找.cpp)
-	- 参考题目：YBT 1433（愤怒的牛，答案空间二分）
-	- 参考题目：P8218（求区间和） — https://www.luogu.com.cn/problem/P8218
-	- 参考题目：P2367（语文成绩） — https://www.luogu.com.cn/problem/P2367
-- [4_一维前缀和一维差分.cpp](01_基础杂项/4_一维前缀和一维差分.cpp)
-	- 参考题目：P8218（求区间和）、P2367（语文成绩）
-	- 参考题目：P2004（领地选择，二维前缀和例题） — https://www.luogu.com.cn/problem/P2004
-	- 参考题目：P3397（地毯，二维差分例题） — https://www.luogu.com.cn/problem/P3397
-- [5_二维前缀和二维差分.cpp](01_基础杂项/5_二维前缀和二维差分.cpp)
-	- 参考题目：P2004（领地选择，二维前缀和例题）、P3397（地毯，二维差分例题）
-	- 参考资料：__int128 使用与注意点 — https://oi-wiki.org/lang/cpp/optimization/
-- [6_int128大整数输入输出.cpp](01_基础杂项/6_int128大整数输入输出.cpp)
+  - 描述：答案空间二分与传统二分查找模板，包含判定函数示例。
+  - 参考题目：YBT 1433（愤怒的牛，答案空间二分） — https://ybt.ssoier.cn/problem_show.php?pid=1433
 
-	- 参考题目：P1601（高精度加法） — https://www.luogu.com.cn/problem/P1601
-	- 参考题目：P2142（高精度减法） — https://www.luogu.com.cn/problem/P2142
-	- 参考题目：P1303（A*B，乘法） — https://www.luogu.com.cn/problem/P1303
-	- 参考题目：P1480（A/B，高精度除法） — https://www.luogu.com.cn/problem/P1480
-	- 描述：基于字符串的大整数加/减/乘/除模板，适用于结果超出 64 位且需精确十进制表示的题目。
-	- 参考题目：P1601（高精度加法）、P2142（高精度减法）、P1303（A*B，乘法）、P1480（A/B，高精度除法）
+- [4_一维前缀和一维差分.cpp](01_基础杂项/4_一维前缀和一维差分.cpp)
+  - 描述：一维前缀和用于快速区间和查询；一维差分用于快速批量区间修改并在最后恢复数组。
+  - 参考题目：P8218（求区间和） — https://www.luogu.com.cn/problem/P8218
+  - 参考题目：P2367（语文成绩） — https://www.luogu.com.cn/problem/P2367
+
+- [5_二维前缀和二维差分.cpp](01_基础杂项/5_二维前缀和二维差分.cpp)
+  - 描述：二维前缀和用于矩阵区域求和；二维差分用于矩阵范围更新（批量加/减）。
+  - 参考题目：P2004（领地选择，二维前缀和例题） — https://www.luogu.com.cn/problem/P2004
+  - 参考题目：P3397（地毯，二维差分例题） — https://www.luogu.com.cn/problem/P3397
+
+- [6_int128大整数输入输出.cpp](01_基础杂项/6_int128大整数输入输出.cpp)
+  - 描述：`__int128` 的读写示例与注意事项，适合中间结果或需要 128 位精度的场景。
+  - 参考资料：__int128 使用与注意点 — https://www.cnblogs.com/FReQuenter5156/p/int128-post.html
+
+- [7_高精度加减乘除.cpp](01_基础杂项/7_高精度加减乘除.cpp)
+  - 描述：基于字符串的大整数加/减/乘/除模板，适用于结果超出 64 位且需精确十进制表示的题目。
+  - 参考题目：P1601（高精度加法） — https://www.luogu.com.cn/problem/P1601
+  - 参考题目：P2142（高精度减法） — https://www.luogu.com.cn/problem/P2142
+  - 参考题目：P1303（A*B，乘法） — https://www.luogu.com.cn/problem/P1303
+  - 参考题目：P1480（A/B，高精度除法） — https://www.luogu.com.cn/problem/P1480
 
 ## 贡献与规范
 
