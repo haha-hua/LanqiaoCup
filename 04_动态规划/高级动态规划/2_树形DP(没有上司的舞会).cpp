@@ -4,6 +4,7 @@
  * 应用：树上独立集、树上选择问题
  * DP 定义：dp[i][0] = 不选点 i，dp[i][1] = 选点 i
  * 状态转移：考虑选与不选当前点，递归求解子树
+ * 参考题目：P1352 没有上司的舞会 - https://www.luogu.com.cn/problem/P1352
  */
 #include<iostream>
 #include<cstring>

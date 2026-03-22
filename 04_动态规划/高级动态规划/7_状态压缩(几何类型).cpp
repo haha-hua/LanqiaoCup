@@ -4,6 +4,7 @@
  * 应用：骨牌铺设、网格覆盖等问题
  * DP 定义：dp[列][状态] = 前 i 列已铺设，第 i 列状态为 state 的方案数
  * 状态转移：枚举当前列状态，检查与前一列的兼容性
+ * 参考题目：P10975 棋盘覆盖 - https://www.luogu.com.cn/problem/P10975
  */
 #include <iostream>
 #include <vector>

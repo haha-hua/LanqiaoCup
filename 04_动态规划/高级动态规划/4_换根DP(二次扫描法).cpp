@@ -4,6 +4,7 @@
  * 应用：计算以每个点为根的子树性质
  * DP 定义：第一遍自下而上计算，第二遍自上而下传递信息
  * 状态转移：换根时，从父节点传递信息到子节点
+ * 参考题目：P3478 递推关系 - https://www.luogu.com.cn/problem/P3478
  */
 #include<iostream>
 #include<cstring>

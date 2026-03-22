@@ -4,6 +4,7 @@
  * 应用：计算范围内满足条件的数字个数
  * DP 定义：dp[位置][状态] = 的满足条件的数字个数
  * 状态转移：逐位枚举 0-9，同时追踪是否贴近上界（tight）
+ * 参考题目：P2657 Storm Chasing - https://www.luogu.com.cn/problem/P2657
  */
 #include<iostream>
 #include<algorithm>

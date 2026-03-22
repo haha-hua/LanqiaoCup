@@ -4,6 +4,7 @@
  * 应用：区间合并、矩阵连乘、括号配对等问题
  * DP 定义：dp[i][j] = 合并区间 [i,j] 的最小/最大成本
  * 状态转移：dp[i][j] = min(dp[i][k] + dp[k+1][j] + cost(i,j))
+ * 参考题目：YBT 1569 石子合并 - https://ybt.ssoier.cn/problem_show.php?pid=1569
  */
 #include<iostream>
 #include<cstring>

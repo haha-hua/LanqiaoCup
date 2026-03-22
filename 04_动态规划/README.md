@@ -22,14 +22,14 @@
 
 | 文件 | 用途 | 时间复杂度 | 参考题目 |
 |------|------|---------|---------|
-| [1_区间DP.cpp](高级动态规划/1_区间DP.cpp) | 区间合并问题 | O(n³) | YBT 1569（石子合并） |
-| [2_树形DP(没有上司的舞会).cpp](高级动态规划/2_树形DP(没有上司的舞会).cpp) | 树上独立集 | O(n) | P1352（没有上司的舞会） |
-| [3_树上分组背包.cpp](高级动态规划/3_树上分组背包.cpp) | 树上分组背包 | O(n·m²) | P2014（选课） |
-| [4_换根DP(二次扫描法).cpp](高级动态规划/4_换根DP(二次扫描法).cpp) | 以每个点为根的统计 | O(n) | P3478（Station） |
-| [5_数位DP.cpp](高级动态规划/5_数位DP.cpp) | 范围内满足条件的数字计数 | O(log n · S) | P2657（windy 数） |
-| [6_状态压缩DP.cpp](高级动态规划/6_状态压缩DP.cpp) | 位掩码行走计数 | O(2ⁿ·n²) | P10447（Hamilton 路径） |
-| [7_状态压缩(几何类型).cpp](高级动态规划/7_状态压缩(几何类型).cpp) | 骨牌/网格覆盖 | O(n·m·2ᵐ) | P10975（蒙德里安梦想） |
-| [8_单调队列DP(滑动窗口).cpp](高级动态规划/8_单调队列DP(滑动窗口).cpp) | 单调性优化 | O(n) | YBT 1597（滑动窗口） |
+| [1_区间DP.cpp](高级动态规划/1_区间DP.cpp) | 区间合并问题 | O(n³) | YBT 1569（石子合并） — https://ybt.ssoier.cn/problem_show.php?pid=1569 |
+| [2_树形DP(没有上司的舞会).cpp](高级动态规划/2_树形DP(没有上司的舞会).cpp) | 树上独立集 | O(n) | P1352（没有上司的舞会） — https://www.luogu.com.cn/problem/P1352 |
+| [3_树上分组背包.cpp](高级动态规划/3_树上分组背包.cpp) | 树上分组背包 | O(n·m²) | P2014（选课） — https://www.luogu.com.cn/problem/P2014 |
+| [4_换根DP(二次扫描法).cpp](高级动态规划/4_换根DP(二次扫描法).cpp) | 以每个点为根的统计 | O(n) | P3478（Station） — https://www.luogu.com.cn/problem/P3478 |
+| [5_数位DP.cpp](高级动态规划/5_数位DP.cpp) | 范围内满足条件的数字计数 | O(log n · S) | P2657（windy 数） — https://www.luogu.com.cn/problem/P2657 |
+| [6_状态压缩DP.cpp](高级动态规划/6_状态压缩DP.cpp) | 位掩码行走计数 | O(2ⁿ·n²) | P10447（Hamilton 路径） — https://www.luogu.com.cn/problem/P10447 |
+| [7_状态压缩(几何类型).cpp](高级动态规划/7_状态压缩(几何类型).cpp) | 骨牌/网格覆盖 | O(n·m·2ᵐ) | P10975（蒙德里安梦想） — https://www.luogu.com.cn/problem/P10975 |
+| [8_单调队列DP(滑动窗口).cpp](高级动态规划/8_单调队列DP(滑动窗口).cpp) | 单调性优化 | O(n) | YBT 1597（滑动窗口） — https://ybt.ssoier.cn/problem_show.php?pid=1597 |
 
 ## 学习建议
 

@@ -4,6 +4,7 @@
  * 应用：TSP、棋盘覆盖、行走计数等
  * DP 定义：dp[mask][i] = 访问集合 mask 中的点，现在在点 i
  * 状态转移：从 mask 状态扩展到 mask | (1<<j) 状态
+ * 参考题目：P10447 旅行商问题 - https://www.luogu.com.cn/problem/P10447
  */
 #include<iostream>
 #include<cstring>

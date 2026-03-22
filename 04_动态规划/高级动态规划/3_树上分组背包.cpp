@@ -4,6 +4,7 @@
  * 应用：树上物品分派、路径选择问题
  * DP 定义：dp[i][j] = 以点 i 为根、背包容量 j 的最大权值
  * 状态转移：分组背包，枚举子树选择数量组合
+ * 参考题目：P2014 选课 - https://www.luogu.com.cn/problem/P2014
  */
 #include<iostream>
 #include<cstring>

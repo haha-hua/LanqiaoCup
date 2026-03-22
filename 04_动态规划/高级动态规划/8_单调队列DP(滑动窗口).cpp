@@ -4,6 +4,7 @@
  * 应用：滑动窗口最大/最小值、DP 转移优化
  * DP 定义：dp[i] = 在窗口内的最优选择
  * 优化：双端队列维护单调性，O(n) 时间内全部计算
+ * 参考题目：YBT 1597 单调队列DP - https://ybt.ssoier.cn/problem_show.php?pid=1597
  */
 #include<iostream>
 #include<deque>
