@@ -1,4 +1,8 @@
-//题目链接:https://www.luogu.com.cn/problem/P10931(P10931 闇の連鎖)
+// 树上边差分算法模板
+// 适用场景：处理树上路径的边权批量修改和查询问题
+// 算法特点：将边权转化为点权（子节点代表父边），结合LCA实现
+// 差分原理：对路径(u,v)上的所有边+1，等价于 d[u]++, d[v]++, d[lca] -= 2
+// 参考题目：P10931 闇の連鎖 — https://www.luogu.com.cn/problem/P10931
 
 #include<iostream>
 #include<cstring>

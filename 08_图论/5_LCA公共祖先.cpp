@@ -1,4 +1,8 @@
-//https://www.luogu.com.cn/problem/P3379
+// LCA（最近公共祖先）算法模板 - 倍增法
+// 适用场景：在树结构中快速查询任意两点的最近公共祖先
+// 算法特点：预处理时间复杂度 O(N log N)，单次查询时间复杂度 O(log N)
+// 算法原理：通过倍增预处理每个节点的2^i级祖先，查询时先调整深度再同时上跳
+// 参考题目：P3379 【模板】最近公共祖先（LCA） — https://www.luogu.com.cn/problem/P3379
 
 #include<iostream>
 #include<cstring>

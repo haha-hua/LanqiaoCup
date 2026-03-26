@@ -1,4 +1,8 @@
-//题目链接:https://www.luogu.com.cn/problem/P3366(P3366 【模板】最小生成树)
+// Kruskal最小生成树算法模板
+// 适用场景：求解无向连通图的最小生成树
+// 算法特点：基于贪心思想，使用并查集维护连通性，时间复杂度 O(E log E)
+// 算法步骤：将所有边按权重排序，依次选择不形成环的最小权重边
+// 参考题目：P3366 【模板】最小生成树 — https://www.luogu.com.cn/problem/P3366
 
 #include<iostream>
 #include<queue>

@@ -1,4 +1,8 @@
-//https://www.luogu.com.cn/problem/P4779(P4779 【模板】单源最短路径（标准版）)
+// Dijkstra单源最短路径算法模板
+// 适用场景：求解带权有向图或无向图中从单个源点到其他所有点的最短路径
+// 算法特点：使用优先队列优化，时间复杂度 O((V+E)logV)
+// 限制条件：图中不能包含负权边
+// 参考题目：P4779 【模板】单源最短路径（标准版） — https://www.luogu.com.cn/problem/P4779
 
 #include<iostream>
 #include<cstring>

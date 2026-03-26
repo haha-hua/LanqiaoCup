@@ -1,4 +1,8 @@
-//https://www.luogu.com.cn/problem/B4016
+// 树的直径算法模板
+// 适用场景：求解无根树中最长路径的长度（边数或权重和）
+// 算法特点：两次DFS/BFS，时间复杂度 O(N)
+// 算法原理：从任意点出发找到最远点u，再从u出发找到最远点v，u到v的路径即为直径
+// 参考题目：B4016 树的直径 — https://www.luogu.com.cn/problem/B4016
 
 #include<iostream>
 #include<cstring>

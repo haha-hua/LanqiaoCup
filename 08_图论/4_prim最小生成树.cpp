@@ -1,4 +1,8 @@
-//题目链接:https://www.luogu.com.cn/problem/P3366(P3366 【模板】最小生成树)
+// Prim最小生成树算法模板
+// 适用场景：求解无向连通图的最小生成树，特别适合稠密图
+// 算法特点：基于贪心思想，使用优先队列优化，时间复杂度 O(E log V)
+// 算法步骤：从任意顶点开始，每次选择连接已选点集和未选点集的最小权重边
+// 参考题目：P3366 【模板】最小生成树 — https://www.luogu.com.cn/problem/P3366
 
 #include<iostream>
 #include<queue>

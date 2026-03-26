@@ -1,4 +1,8 @@
-//https://www.luogu.com.cn/problem/P3385(P3385 【模板】负环)
+// SPFA算法判断负环模板
+// 适用场景：检测图中是否存在负权环，可用于求解最短路径（但效率不稳定）
+// 算法特点：基于Bellman-Ford的队列优化，平均时间复杂度 O(kE)，最坏 O(VE)
+// 判断负环原理：如果某个点的最短路径经过的边数 >= V，则存在负环
+// 参考题目：P3385 【模板】负环 — https://www.luogu.com.cn/problem/P3385
 
 #include<iostream>
 #include<queue>

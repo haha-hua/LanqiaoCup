@@ -1,4 +1,9 @@
-//题目链接:https://www.luogu.com.cn/problem/P3128(P3128 [USACO15DEC] Max Flow P)
+// 树上点差分算法模板
+// 适用场景：处理树上路径的批量修改和查询问题
+// 算法特点：结合LCA实现，单次修改 O(1)，最终统计 O(N)
+// 差分原理：对路径(u,v)上的所有点+1，等价于 d[u]++, d[v]++, d[lca]--, d[parent[lca]]--
+// 参考题目：P3128 [USACO15DEC] Max Flow P — https://www.luogu.com.cn/problem/P3128
+
 #include<iostream>
 #include<cstring>
 #include<cmath>
