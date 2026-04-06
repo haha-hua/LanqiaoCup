@@ -92,6 +92,41 @@ public:
 		return ;
 	}
 	
+	//乘法，两个大数相乘
+	void multi(const BigInt& other)
+	{
+		vector<ll> res(d.size() + other.d.size() + 5,0);
+
+		for(int i = 0; i < d.size(); ++i)
+		{
+			for(int j = 0; j < other.d.size(); ++j)
+			{
+				res[i + j] += d[i] * other.d[j];
+				res[i + j + 1] += res[i + j] / BASE;
+				res[i + j] %= BASE;
+			}
+		}
+
+		ll carry = 0;
+		for(int i = 0; i < res.size(); ++i)
+		{
+			res[i] += carry;
+			carry = res[i] / BASE;
+			res[i] %= BASE;
+		}
+
+		while(carry)
+		{
+			res.push_back(carry % BASE);
+			carry /= BASE;
+		}
+
+		d = res;
+		clean();
+
+		return ;
+	}
+
     //减法，保证大数减小数，结果非负
 	void subtra(const BigInt& other)
 	{
