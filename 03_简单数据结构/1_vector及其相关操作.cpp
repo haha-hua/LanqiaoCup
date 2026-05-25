@@ -43,8 +43,9 @@ int main()
     //配合algorithm算法
     sort(arr.begin(), arr.end()); //对元素进行排序，使用默认的升序排序，可以传入自定义的比较函数来实现其他排序方式
     upper_bound(arr.begin(), arr.end(), 3); //返回第一个大于3的元素的位置，前提是arr已经排序
+    //1，2，3，4，5  upper_bound返回4的位置
     lower_bound(arr.begin(), arr.end(), 3); //返回第一个不小于3的元素的位置，前提是arr已经排序
-
+    //1，2，3，4，5  lower_bound返回3的位置
     //去重
     sort(arr.begin(), arr.end()); //先排序
     arr.erase(unique(arr.begin(), arr.end()), arr.end()); //unique将相邻的重复元素移到末尾，并返回新末尾的迭代器，erase删除末尾的重复元素
