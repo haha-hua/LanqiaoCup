@@ -1,1 +1,33 @@
+# Compiled executables
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dylib
+
+# Test files
 test.cpp
+Untitled1.cpp
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.dSYM/
+*.su
+*.gch
+*.pch
