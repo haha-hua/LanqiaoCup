@@ -1,4 +1,4 @@
-//题目链接:https://www.luogu.com.cn/problem/P3370(P3370 【模板】字符串哈希)
+//题目链接:https://www.luogu.com.cn/problem/P3370 【模板】字符串哈希)
 
 #include <iostream>
 #include <vector>

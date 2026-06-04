@@ -18,7 +18,6 @@ int main()
 	
 	cin >> s1 >> s2;
 	
-
 	nxt[0] = 0;
 	//i是位置,j是已经匹配的长度
     for(int i = 1,j = 0; i < s2.length(); ++i)
